@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#A27CE6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/firstChild"
+        android:layout_width="385dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/rose" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/_40px_w_carnation4051" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondChild"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Rose"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Carnation"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/child"
+        android:layout_width="394dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/tulip" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/pexels_pixabay_45901" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdChild"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Tulip"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Daisy"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthChild"
+        android:layout_width="385dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/sunflower_care_hero_1024x576" />
+
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/istockphoto_1176574947_612x612" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifthChild"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Sunflower"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Daffodil"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
